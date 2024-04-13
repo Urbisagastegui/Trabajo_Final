@@ -1,6 +1,6 @@
 import os
 
-location = 'C:/Users/21130/DataOps/Trabajo_Parcial/python_parcial/dataset_parcial'
+location = 'C:/Users/21130/DataOps/Trabajo_Parcial_Final/python_parcial/dataset_parcial'
 
 # Validaciones
 if not os.path.exists(location):
