@@ -16,7 +16,7 @@ GO
 
 /*Importar la data de mi archivo csv study_performance*/
 Bulk insert dbo.study
-from 'C:\Users\21130\DataOps\Trabajo_Parcial\python_parcial\dataset_parcial\study_performance.csv' /*Ubicacion de mi archivo*/
+from 'C:\Users\21130\DataOps\Trabajo_Parcial_Final\python_parcial\dataset_parcial\study_performance.csv' /*Ubicacion de mi archivo*/
 with
 (
 	firstrow = 2, 
@@ -24,5 +24,3 @@ with
 	rowterminator = '0x0a'
 )
 GO
-
-select*from dbo.study
